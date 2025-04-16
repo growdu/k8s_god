@@ -18,8 +18,8 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  //baseUrl: '/k8s_god',
-  baseUrl: '/',
+  baseUrl: '/k8s_god',
+  //baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -85,6 +85,29 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} growdu, Inc. Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages: [
+          'java',
+          'latex',
+          'haskell',
+          'matlab',
+          'PHp',
+          'powershell',
+          'bash',
+          'diff',
+          'json',
+          'scss',
+        ],
+        magicComments: [
+          {
+            className: 'theme-code-block-highlighted-line',
+            line: 'highlight-next-line',
+            block: {start: 'highlight-start', end: 'highlight-end'},
+          },
+          {
+            className: 'code-block-error-line',
+            line: 'This will error',
+          },
+        ],
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
