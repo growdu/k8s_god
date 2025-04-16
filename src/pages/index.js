@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            像修仙一样修炼k8s，成仙成神成大佬！
+            开始阅读！
           </Link>
         </div>
       </div>

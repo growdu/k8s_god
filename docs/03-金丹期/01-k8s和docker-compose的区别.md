@@ -1,7 +1,7 @@
 # 01-k8s和docker-compose的区别
 
-|:=====:|:=====:|:=====:|
 |维度 | Docker Compose | Kubernetes|
+|:-------:|:------:|:-----:|
 |🌱 初衷 | 本地开发/测试中快速启动多个容器 | 分布式环境下大规模容器编排与管理|
 |⚙️ 定义方式 | docker-compose.yml | 多种 YAML 文件（Deployment、Service、Ingress等）|
 |🔁 生命周期管理 | 简单：up, down, restart | 完善：RollingUpdate, Auto healing, Scale, Jobs, 等|

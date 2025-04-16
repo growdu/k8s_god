@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'k8s_god',
-  tagline: 'k8s修仙指南',
+  tagline: '像修仙一样修炼k8s，成仙成神成大佬！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
